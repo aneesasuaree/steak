@@ -187,19 +187,19 @@ $('a').click(function(event){
   <img src="img/food/food5.jpg" style="width: 100%;   padding-top:0px;" >
   <h1> </h1><br>
 
-   <input type="text" name="cust_id" id="cust_id" onFocus="field_focus(this, 'cust_id');" onblur="field_blur(this, '');" placeholder="Last 4 number of your IC" class="username" style="width: 28%;" required/> 
+   <input type="text" name="cust_id" id="cust_id" onFocus="field_focus(this, 'cust_id');" onblur="field_blur(this, '');" placeholder="Last 4 number of your IC" class="username" style="width: 80%;" required/> <br><br>
 
-   <input type="cust_pass" name="cust_pass"  onFocus="field_focus(this, 'cust_pass');" onblur="field_blur(this, 'cust_pass');" placeholder="Password" class="password" style="width: 28%;" required/><br><br>
+   <input type="cust_pass" name="cust_pass"  onFocus="field_focus(this, 'cust_pass');" onblur="field_blur(this, 'cust_pass');" placeholder="Password" class="password" style="width: 80%;" required/><br><br>
 
  
-   <input type="text" name="cust_name"  onFocus="field_focus(this, 'cust_name');" onblur="field_blur(this, '');" placeholder="Full Name" class="username"  style="width: 60%;"/><br><br>
+   <input type="text" name="cust_name"  onFocus="field_focus(this, 'cust_name');" onblur="field_blur(this, '');" placeholder="Full Name" class="username"  style="width: 80%;"/><br><br>
       
       
-   <input type="text" name="cust_add"  onFocus="field_focus(this, 'cust_add');" onblur="field_blur(this, '');" placeholder="Address" class="username"  style="width: 60%;"/><br><br>
+   <input type="text" name="cust_add"  onFocus="field_focus(this, 'cust_add');" onblur="field_blur(this, '');" placeholder="Address" class="username"  style="width: 80%;"/><br><br>
 
-   <input type="text" name="cust_pno"  onFocus="field_focus(this, 'cust_pno');" onblur="field_blur(this, ' ');" placeholder ="Phone Number" class="username" style="width: 60%;" required/ ><br><br>
+   <input type="text" name="cust_pno"  onFocus="field_focus(this, 'cust_pno');" onblur="field_blur(this, ' ');" placeholder ="Phone Number" class="username" style="width: 80%;" required/ ><br><br>
 
-   <input type="email" name="cust_email" onFocus="field_focus(this, 'cust_email');" onblur="field_blur(this, ' ');" placeholder="Email" class="username" style="width: 60%;" required/> <br><br>
+   <input type="email" name="cust_email" onFocus="field_focus(this, 'cust_email');" onblur="field_blur(this, ' ');" placeholder="Email" class="username" style="width: 80%;" required/> <br><br>
       
 <a href="index.php?cust_id='.$cust_id.'"><div id="btn2 txt-centre"><b>Sign Up</b></div></a> <!-- End Btn2 -->
   
